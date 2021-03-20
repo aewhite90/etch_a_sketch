@@ -1,0 +1,62 @@
+h1 {
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 1em;
+}
+
+.container {
+  padding: 1em;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  margin: 0 10px;
+}
+
+.grid {
+  height: 750px;
+  width: 750px;
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+}
+
+.square {
+  border: 1px solid #f0f2f5;
+}
+
+@media only screen and (max-width: 800px) {
+  .grid {
+    height: 300px;
+    width: 300px;
+  }
+
+  .container {
+    flex-wrap: wrap;
+  }
+
+  .btn {
+    margin: 10px 10px;
+  }
+}
+
+
+#footer {
+  color: #000000;
+  position: fixed;
+  left: 0;
+  bottom: 10px;
+  line-height: 15px;
+  width: 100%;
+  text-align: center;
+}
